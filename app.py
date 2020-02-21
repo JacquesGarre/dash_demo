@@ -11,7 +11,7 @@ app.layout = html.Div(children=[
     html.H1(children='Hello Dash'),
 
     html.Div(children='''
-        Dash: Dash demo pour l'application Simplon.
+        Dash: A web application framework for Python.
     '''),
 
     dcc.Graph(
