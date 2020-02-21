@@ -11,15 +11,20 @@ app.layout = html.Div(children=[
     html.H1(children='Hello Dash !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'),
 
     html.Div(children='''
-        Dash: A web application framework for Python.
+        Dash: Dash demo pour l'application Simplon.
     '''),
 
     dcc.Graph(
         id='example-graph',
         figure={
             'data': [
+<<<<<<< HEAD
                 {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'SF'},
                 {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'NCY'},
+=======
+                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'Nancy'},
+                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Metz'},
+>>>>>>> upstream/master
             ],
             'layout': {
                 'title': 'Visualisation de données'
