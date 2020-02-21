@@ -3,3 +3,6 @@ __pycache__/
 
 # ignoring venv
 dash_demo/
+
+# ignoring vscode config
+.vscode/
