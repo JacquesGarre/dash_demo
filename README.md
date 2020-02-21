@@ -5,10 +5,12 @@
 - cd dash_demo
 - pip install virtualenv
 - virtualenv dash_demo
+
+## 2. Lancer l'application web
 - dash_demo\Scripts\activate 
 - deactivate 
 
-## 2. Utilisation de git
+## 3. Utilisation de git
 
 ### a. Configuration initiale
 - git remote -v 
