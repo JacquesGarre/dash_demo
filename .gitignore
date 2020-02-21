@@ -1,0 +1,5 @@
+# ignoring cache
+__pycache__/
+
+# ignoring venv
+dash_demo/
