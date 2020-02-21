@@ -19,7 +19,7 @@ app.layout = html.Div(children=[
         figure={
             'data': [
                 {'x': ["Ulysse", 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'Nancy'},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Metz'},
+                {'x': ["Ulysse", 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Metz'},
             ],
             'layout': {
                 'title': 'Visualisation de données'
