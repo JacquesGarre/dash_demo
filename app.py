@@ -12,7 +12,7 @@ csv = os.path.join(dir_path, "liste_apprenants-devdataia.csv")
 data = pd.read_csv(csv, encoding="windows-1252", sep=";") 
 
 data1 = data.groupby(data['Couleur T-Shirt'])['Couleur T-Shirt'].count()
-fig = px.pie(data, values= data1, names= ['noir', 'bleu', 'blanc'], title= 'Couleur de T-Shirt de la promo')
+fig = px.pie(data, values= data1, names= ['blanc', 'bleu', 'noir'], title= 'Couleur de T-Shirt de la promo')
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
